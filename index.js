@@ -3,7 +3,7 @@ const joi = require('joi')
 const app = express() //create express server
 app.use(express.json()) //it will asked use a json data
 
-//create customer json array
+//create customer json array...
 const customers =[
     {
         "id": 1,
